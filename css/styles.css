@@ -1,0 +1,86 @@
+body {
+  background:none repeat scroll 0 0 #d3d3d3;
+  font-size:16px;
+  font-family:"Open Sans",Arial,sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: 200px 1fr 300px;
+    grid-template-rows: auto 1fr auto;
+} }
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+} h1 {
+  font-size:48px;
+  font-style: bold;
+}
+header {
+  grid-column: span 3;
+  padding: 30px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  background-color: green;
+}
+header h1 {
+  height: 50px;
+  margin-right: 20px;
+}
+nav {
+       background: orange;
+} ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    } section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 30px;
+} article {
+       position:relative;
+} aside {
+       background: pink;
+} footer {
+  background: grey;
+  grid-column: span 3;
+  padding: 30px;
+  text-align: left;
+} img {
+  height: 200px;
+  width: 100%;
+  object-fit: scale-down;
+} form {
+} input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+} textarea {
+    width: 75%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
