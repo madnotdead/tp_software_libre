@@ -1,6 +1,6 @@
 body {
   background:none repeat scroll 0 0 #ffffff;
-  font-size:16px;
+  font-size:12px;
   font-family:SourceSansProLight, Verdana, Arial, sans-serif;
 }
 body {
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 header {
   grid-column: span 3;
-  padding: 30px;
+
   text-align: center;
   font-size: 2em;
   color: white;
@@ -82,12 +82,15 @@ article {
 }
 aside {
        background: pink;
-} footer {
+} 
+footer {
   background: #9B182F;
   grid-column: span 3;
   padding: 30px;
   text-align: left;
   flex-shrink: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 } footer p {
   color: white
 }img {
