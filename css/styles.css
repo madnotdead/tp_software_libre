@@ -35,7 +35,7 @@ header h1 {
   color: #111
 }
 nav {
-       background: orange;
+       background: #9B182F;
 }
 nav li { 
   display: inline-block;
@@ -224,4 +224,10 @@ main {
     width: 100%;
     padding: 0;
   }
+}
+
+main div h1 {
+	text-align: center; 
+	color: white; 
+	margin-top: 0px
 }
