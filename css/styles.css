@@ -1,7 +1,7 @@
 body {
   background:none repeat scroll 0 0 #d3d3d3;
   font-size:16px;
-  font-family:"Open Sans",Arial,sans-serif;
+  font-family:SourceSansProLight, Verdana, Arial, sans-serif;
 }
 body {
   display: flex;
@@ -11,7 +11,7 @@ body {
 @media (min-width: 768px) {
   body {
     display: grid;
-    grid-template-columns: 200px 1fr 300px;
+    grid-template-columns: 200px 1fr;
     grid-template-rows: auto 1fr auto;
 } }
 h1,h2,h3,h4,h5,h6 {
@@ -51,12 +51,31 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-    } section {
+    } 
+section {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 30px;
-} article {
-       position:relative;
+
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 20px;
+  
+} 
+article {
+	position:relative;
+	width: 280px;
+	margin-right: 40px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #c8c8c8;
+	margin-bottom: 20px;
+	padding: 7px;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px #ccc;
+	background-color: white;
+	*display:inline;
+    zoom:1;
+}
 } aside {
        background: pink;
 } footer {
@@ -90,4 +109,31 @@ html,body {
 }
 main {
   flex: 1 0 auto;
+  background-color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.readmore{
+	background-color: black;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+	display: inline-block;
+}
+.readmore:hover{
+	background-color: #383838;
 }
