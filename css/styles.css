@@ -147,6 +147,18 @@ main {
 .readmore:hover{
 	background-color: #383838;
 }
+.linkarticulo{
+	background-color: black;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 26px;
+}
+.linkarticulo:hover{
+	background-color: #383838;
+}
 .contact{
   padding-left: 30px;
   display: flex;
